@@ -27,7 +27,8 @@ body{
     width: 50%;
     border-color: yellow;
     box-sizing: border-box;
-    font-size: 1em;width: 50%;
+    font-size: 1em;
+    width: 50%;
     border: thin;
     color: black;
     box-sizing: border-box;
@@ -44,10 +45,20 @@ body{
     background-color: rgb(2, 2, 22);
     border-color: yellow;
     color: yellow;
+    font-size: x-large;
 }
 
 .timers input:hover{
+    border: 0px;
     background-color: yellow;
     color: black;
-    box-shadow: 10px 10px 10px yellow;
+}
+
+.control button{
+    height: 50px;
+}
+
+.control button:disabled{
+    height: 50px;
+    background-color: gray;
 }
